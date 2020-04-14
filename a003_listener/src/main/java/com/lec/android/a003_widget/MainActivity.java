@@ -1,4 +1,4 @@
-package com.lec.android.a002_layout;
+package com.lec.android.a003_widget;
 
 import androidx.appcompat.app.AppCompatActivity;
 
@@ -9,11 +9,6 @@ public class MainActivity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.constraint1);
-
-        int num = 100;
-        String str = "hello";
-        char ch = 'a';
-        short s = 200;
+        setContentView(R.layout.activity_main);
     }
 }
