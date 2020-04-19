@@ -43,9 +43,6 @@ public class MainActivity extends AppCompatActivity {
         btnAppend.setOnClickListener(new View.OnClickListener() {
             @Override
             public void onClick(View v) {
-                //버튼 클릭시 키보드 내리기 (feat.구글)
-                InputMethodManager imm = (InputMethodManager)getSystemService(Context.INPUT_METHOD_SERVICE);
-                imm.hideSoftInputFromWindow(et3.getWindowToken(), 0 );
 
                 adapter.addItem(new memberData(et1.getText().toString(),
                         Integer.parseInt(et2.getText().toString()),
