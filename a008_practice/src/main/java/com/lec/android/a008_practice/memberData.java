@@ -1,6 +1,9 @@
 package com.lec.android.a008_practice;
 
-public class memberData {
+import java.io.Serializable;
+
+
+public class memberData implements Serializable  {
     String name;
     int age;
     String address;

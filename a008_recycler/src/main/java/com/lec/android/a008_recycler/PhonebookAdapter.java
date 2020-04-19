@@ -22,6 +22,7 @@ import java.util.ArrayList;
 import java.util.List;
 
 public class PhonebookAdapter extends RecyclerView.Adapter<PhonebookAdapter.ViewHolder> { //6.extends ~ -> implement 시켜주기
+
     //list로 담아서 관리
     // Adapter는 리스트에서 다룰 데이터가 필요하다
     // Adapter가 데이터에 연결되어야 하는 것은 사실이나, 데이터를 Adapter를 직접 다룰지
