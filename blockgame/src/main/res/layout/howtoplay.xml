@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/main"
+    tools:context=".HowToPlay">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="371dp"
+        android:layout_height="135dp"
+        android:layout_marginStart="20dp"
+        android:layout_marginTop="268dp"
+        android:background="#CCFFFFFF"
+        android:gravity="center"
+        android:text="게임설명\n빨강,초록,파랑색의 버튼이 있어요.\n떨어지는 블럭과 같은 색깔의 버튼을 누르고\n점수를 얻으세요.\n화이팅!!"
+        android:textSize="18sp"
+        android:textStyle="normal|bold"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/btnBack"
+        android:layout_width="110dp"
+        android:layout_height="57dp"
+        android:layout_marginEnd="40dp"
+        android:layout_marginBottom="44dp"
+        android:background="#FFC9C9"
+        android:text="Back"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent" />
+</androidx.constraintlayout.widget.ConstraintLayout>

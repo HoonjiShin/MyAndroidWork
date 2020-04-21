@@ -19,15 +19,15 @@ public class Main3Activity extends AppCompatActivity {
     @Override
     protected void onCreate(Bundle savedInstanceState) { //초기화 할 때
         super.onCreate(savedInstanceState);
-        setContentView(R.layout.activity_main3);
+        setContentView(R.layout.activity_main4);
 
-        //2.버튼 꺼내오기
-        cb1 = findViewById(R.id.cb1);
-        cb2 = findViewById(R.id.cb2);
-        cb3 = findViewById(R.id.cb3);
-        cb4 = findViewById(R.id.cb4);
-        tvResult = findViewById(R.id.tvResult);
-        btnComplete = findViewById(R.id.btnComplete);
+//        //2.버튼 꺼내오기
+//        cb1 = findViewById(R.id.cb1);
+//        cb2 = findViewById(R.id.cb2);
+//        cb3 = findViewById(R.id.cb3);
+//        cb4 = findViewById(R.id.cb4);
+//        tvResult = findViewById(R.id.tvResult);
+//        btnComplete = findViewById(R.id.btnComplete);
         //====================================================
         //버튼이 클릭되면 체크된 내용만 결과 출력하기
         //3. 버튼이 클릭되면~
