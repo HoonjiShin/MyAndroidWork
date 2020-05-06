@@ -24,8 +24,6 @@ public class Main3Activity extends AppCompatActivity {
         ll.addView(new MyView3(this));  // LineaLayout 에 들어감.
         setContentView(ll);
     }
-
-
 }
 
 class MyView3 extends View {
